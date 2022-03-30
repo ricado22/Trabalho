@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    box-sizing: border-box;
+}
+header{
+    background-color: #ff0303da;
+}
+body{
+    background-color: #ffffff;
+    font-family: 'Dancing Script' , 'Arial';
+    margin: auto;
+    font-size: 25px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+table{
+    width: 700px; /* largura*/   
+}
+form{
+    width: 500px;
+    font-size: 30px
+}
+h1{
+    color: #ffd902;
+    font-size: 40px;
+}
+ul > li {
+    display: inline;
+    padding: 5px;
+    background-color: #ffd902;
+    border-radius: 5px;
+    color: #ff0303da;
+    transition: 1s;
+}
+ul > li:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 1s;
+    letter-spacing: 1px;
+}
+th{
+    background-color: #ff0303da; /* cor de fundo*/
+    color: #ffd902; /* cor da fonte */
+    padding: 10px; /* margem interna */
+}
+
+td{
+    padding: 5px;
+    text-align: left;
+}
+img{
+    width: 200px;
+    border-radius: 100px;
+}
+main{
+    display: flex;
+    width: 100%;
+
+}
+#formulario{
+    flex: 1;
+    size: 10px;
+}
+#tabela{
+    margin-top: 70px;
+}
+footer{
+    background-color: #ff0303da;
+    color:#ffd902;
+    text-align: center;
+    margin-top: 30px;
+}
+.botaosalvar{
+    background-color: #ff0303da;
+    color:#ffd902;
+    border: 3px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.botaolimpar{
+    background-color: #ff0303da;
+    color:#ffd902;
+    border: 3px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.botaoeditar{
+    background-color: #ff0303da;
+    color:#ffd902;
+    border: 3px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.botaoapagar{
+    background-color: #ff0303da;
+    color:#ffd902;
+    border: 3px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.botaosalvar:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 1s;
+}
+.botaolimpar:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 1s;
+}
+.botaoeditar:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 1s;
+}
+.botaoapagar:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 1s;
+}

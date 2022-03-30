@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Punch</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="https://www.nerdsite.com.br/wp-content/uploads/2022/01/thumb-1920-1009607.png" title="logo" alt="logo da empresa" />
+            <h1>Site dos Heróis</h1>
+            <ul>
+                <li>Inicio</li>
+                <li>Cadastro</li>
+                <li>Sobre</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="formulario">
+            <form name="Formlogin" method="POST" action="/">
+                <legend><h2>Cadastro de Heróis 🦸🏼‍♂️</h2><br>Formulario de heróis.</legend>
+                <label>Nome:</label><br>
+                <input type="text" id="nome de herói" name="Nome de herói" placeholder="Nome de herói"
+                    title="informe o seu nome de herói" required=""><br>
+                <label>Nascimento:</label><br>
+                <input type="date" id="nascimento" name="Nascimento" placeholder=" dd / mm / aaaa"
+                    title="informe sua data de nascimento" required=""><br>
+                <label>Seu continente:</label><br>
+                <select name="estado" required>
+                    <option value="AMS">América do Sul</option>
+                    <option value="AMN">América do Norte</option>
+                    <option value="AS">Ásia</option>
+                    <option value="AF">África</option>
+                    <option value="EU">Europa</option>
+                    <option value="OC">Oceania</option>
+                    <option value="ET">Sou E.T</option>
+                    <option value="" selected>Selecione...</option>
+                </select><br>
+
+                <label>Possui algum poder ?</label><br>
+                <input type="checkbox" name="poder" placeholder="Poder" title="informe se possui poderes">sim ?<br>
+
+                <label>Ranking:</label><br>
+                <label>
+                    <input type="radio" name="Ranking" value="S" placeholder="Ranking S"
+                        title="informe se você é Ranking S" checked>S
+                </label>
+                <label>
+                    <input type="radio" name="Ranking" value="A" placeholder="Ranking A"
+                        title="informe se você é Ranking A">A
+                </label>
+                <label>
+                    <input type="radio" name="Ranking" value="B" placeholder="Ranking B"
+                        title="informe se você é Ranking B">B
+                </label>
+                <label>
+                    <input type="radio" name="Ranking" value="C" placeholder="Ranking C"
+                        title="informe se você é Ranking C">C<br><br>
+                </label>
+
+                <input type="submit" value="💾 salvar" class="botaosalvar">
+                <input type="reset" value="🛀 limpar" class="botaolimpar">
+            </form><br>
+        </div>
+        <div id="tabela">
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th colspan="5">Relação de heróis cadastrados</th>
+                    </tr>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Nascimento</th>
+                        <th>Poder</th>
+                        <th>Ranking</th>
+                        <th>Opções</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>*****</td>
+                        <td>*****</td>
+                        <td>*****</td>
+                        <td>*****</td>
+                        <td> <input type="submit" value="✏️ editar" class="botaoeditar"><br>
+                            <input type="reset" value="🧺 apagar" class="botaoapagar">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>*****</td>
+                        <td>*****</td>
+                        <td>*****</td>
+                        <td>*****</td>
+                        <td> <input type="submit" value="✏️ editar" class="botaoeditar"><br>
+                            <input type="reset" value="🧺 apagar" class="botaoapagar">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>*****</td>
+                        <td>*****</td>
+                        <td>*****</td>
+                        <td>*****</td>
+                        <td> <input type="submit" value="✏️ editar" class="botaoeditar"><br>
+                            <input type="reset" value="🧺 apagar" class="botaoapagar">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>*****</td>
+                        <td>*****</td>
+                        <td>*****</td>
+                        <td>*****</td>
+                        <td> <input type="submit" value="✏️ editar" class="botaoeditar"><br>
+                            <input type="reset" value="🧺 apagar" class="botaoapagar">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>*****</td>
+                        <td>*****</td>
+                        <td>*****</td>
+                        <td>*****</td>
+                        <td> <input type="submit" value="✏️ editar" class="botaoeditar"><br>
+                            <input type="reset" value="🧺 apagar" class="botaoapagar">
+                        </td>
+                    </tr>
+                <tbody>
+            </table>
+        </div>
+    </main>
+    <footer>
+        Para mais informações entre em contato como nosso whatsapp (11) XXXXX-XXXX
+    </footer>
+</body>
+
+</html>
